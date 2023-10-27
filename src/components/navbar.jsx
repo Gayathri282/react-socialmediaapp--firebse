@@ -10,7 +10,7 @@ export const NavBar=()=>{
     const[user]=useAuthState(auth);
     const signUserOut=async()=>{
         await signOut(auth);
-        navigate('/n');
+        navigate('/');
     }
     return(
       <div className="navbar">   
